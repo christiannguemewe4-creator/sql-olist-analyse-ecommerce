@@ -96,7 +96,10 @@ Olist a connu une forte croissance en 2017, mais son CA **stagne depuis début 2
 
 ## Fichiers
 
-- `olist_analyse.sql` : toutes les requêtes, commentées question par question
+- `02_evolution_ca.sql` : Q1 – évolution annuelle et mensuelle du CA
+- `clients_olist.sql` : Q2 – CA et clients par État
+- `retards et baisse de ca.sql` : Q3 et Q4 – délais de livraison et satisfaction
+- `produits qui se vendent le mieux.sql` : Q5 – catégories de produits
 - `README.md` : ce document
 
 ---
