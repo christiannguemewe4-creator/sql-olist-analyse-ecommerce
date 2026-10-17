@@ -102,6 +102,32 @@ Olist a connu une forte croissance en 2017, mais son CA **stagne depuis début 2
 - `produits qui se vendent le mieux.sql` : Q5 – catégories de produits
 - `README.md` : ce document
 
+## Tableau de bord Power BI
+
+Après l'analyse SQL, j'ai construit un tableau de bord Power BI sur les mêmes données, avec un modèle en étoile (commandes, lignes de commande, produits, catégories, clients, avis).
+
+📄 [Voir le tableau de bord complet (PDF)](powerbi/dashboard_olist.pdf)
+
+### Page 1 : Comment évoluent nos ventes ?
+![Page Ventes](powerbi/page1_ventes.png)
+
+- Les commandes ont été multipliées par 8 entre janvier 2017 et août 2018, mais le panier moyen a baissé de 13 % : la croissance vient uniquement du volume.
+- Les 5 premières catégories génèrent 39,8 % du chiffre d'affaires.
+
+### Page 2 : Où sont nos clients ?
+![Page Clients](powerbi/page2_clients.png)
+
+- São Paulo concentre 42 % des clients, mais ce sont ceux qui dépensent le moins (129 contre 156 à Bahia).
+- Hypothèse vérifiée dans les données : le port moyen est 74 % plus cher à Bahia. Quand la livraison coûte cher, les clients réservent leurs achats en ligne aux produits de valeur.
+
+### Page 3 : Les retards de livraison font-ils baisser la satisfaction ?
+![Page Livraison](powerbi/page3_livraison.png)
+
+- Une commande en retard reçoit une note moyenne de 2,57, contre 4,29 à l'heure (-40 %).
+- Une commande en retard a 7 fois plus de risques de recevoir la note 1 (46,15 % contre 6,60 %).
+
+### Compétences mobilisées
+Power Query (types de données, nettoyage), modélisation en étoile, DAX (mesures, colonnes calculées, CALCULATE, DIVIDE, DATEDIFF, DISTINCTCOUNT), filtres Top N, choix des visuels, rédaction de conclusions orientées décision.
 ---
 
 **Auteur :** Christian Nguemewe – Junior Data Analyst
