@@ -96,10 +96,10 @@ Olist a connu une forte croissance en 2017, mais son CA **stagne depuis début 2
 
 ## Fichiers
 
-- `02_evolution_ca.sql` : Q1 – évolution annuelle et mensuelle du CA
-- `clients_olist.sql` : Q2 – CA et clients par État
-- `retards et baisse de ca.sql` : Q3 et Q4 – délais de livraison et satisfaction
-- `produits qui se vendent le mieux.sql` : Q5 – catégories de produits
+- `01_q1_evolution_ca.sql` : Q1 – évolution annuelle et mensuelle du CA
+- `02_q2_clients_par_etat.sql` : Q2 – CA et clients par État
+- `03_q3_q4_livraison_satisfaction.sql` : Q3 et Q4 – délais de livraison et satisfaction
+- `04_q5_categories_produits.sql` : Q5 – catégories de produits
 - `README.md` : ce document
 
 ## Tableau de bord Power BI
