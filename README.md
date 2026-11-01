@@ -94,6 +94,19 @@ Olist a connu une forte croissance en 2017, mais son CA **stagne depuis début 2
 - Environ 100 commandes livrées n'ont pas d'avis client et sont absentes de la Q4.
 - Les causes proposées (Black Friday, trafic à Rio…) sont des **hypothèses** à confirmer avec des données complémentaires.
 
+## Méthode et utilisation de l'IA
+
+J'ai utilisé **Claude** comme assistant de travail :
+- **Code** : aide à l'écriture des requêtes SQL et des mesures DAX, et au débogage.
+- **Rédaction** : reformulation des conclusions pour un public non technique.
+- **Jeu de rôle « manager »** : Claude a joué le rôle d'un manager qui pose des questions business ; j'y ai répondu par l'analyse.
+
+**Vérification des résultats :**
+- contrôle de l'import : 99 441 commandes, 112 650 articles et 103 886 paiements, conformes aux volumes du dataset ;
+- relecture du code proposé par Claude, et correction quand il se trompait.
+
+L'analyse, l'interprétation des résultats et les recommandations finales sont les miennes.
+
 ## Fichiers
 
 - `01_q1_evolution_ca.sql` : Q1 – évolution annuelle et mensuelle du CA
